@@ -1,7 +1,7 @@
 # CUDA-image-processing-
 In this repo, the image blur function is implemented using CUDA and OpenCV. 
 
-In this lab, the image blur function that was previously developed for CPU processing and MPI is converted for CUDA processing. The CUDA and CPU processing time for blurring an image and the speedup were computed. Moreover, blurred images calculated by CPU and GPU are illustrated in separate image windows for comparison. In the following sections, the details of the code will be revealed, and answers to the lab questions will be provided.
+In this lab, the image blur function that was previously developed for CPU processing and MPI is converted for GPU processing. The CUDA and CPU processing time for blurring an image and the speedup were computed. Moreover, blurred images calculated by CPU and GPU are illustrated in separate image windows for comparison. In the following sections, the details of the code will be revealed, and answers to the lab questions will be provided.
 
 ## Execution configuration (thread layout) for CUDA kernel
 
