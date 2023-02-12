@@ -48,3 +48,4 @@ At a block size of 8, for example, we have 64 threads in every block (two dimens
 |     6             |     16×16         |     0.209           |     2.978           |     14.249     |
 |     6             |     32×32         |     0.238           |     2.978           |     12.513     |
 
+Overall, when the blur level is 6, the speedup is higher than compared to the blur level 3. It might be because of increasing the computation with respect to the communication between host and device (same as MPI). However, using a big blur level results in increasing halo pixels and overlapping of memory access.
